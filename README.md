@@ -8,7 +8,7 @@ An add-on package to the [Slepian function Software](https://geoweb.princeton.ed
 
 **Required software:**<br>
 [slepian_alpha](https://github.com/csdms-contrib/slepian_alpha)  
-[slepian_brav](https://github.com/csdms-contrib/slepian_bravo)  
+[slepian_bravo](https://github.com/csdms-contrib/slepian_bravo)  
 [slepian_delta](https://github.com/csdms-contrib/slepian_delta)  
 [slepian_zero](https://github.com/csdms-contrib/slepian_zero) (actually only guyotphysics.m)   
 [m_map](https://www.eoas.ubc.ca/~rich/map.html)  
