@@ -4,7 +4,7 @@ An add-on package to the [Slepian function Software](https://geoweb.princeton.ed
 
 ## Notice before use
 1. This code is based on the Free Software from the Simons Laboratories (https://geoweb.princeton.edu/people/simons/software.html) with some changes for oceanic application (e.g., GAD, GIA, IB correction).
-2. It is strongly recommended to familiarize yourself with the foundational work before using this add-on code.
+2. It is strongly recommended to familiarize yourself with the foundational work by <a href="https://polarice.geo.arizona.edu/">C. Harig</a> &amp; <a href="http://www.frederik.net">F. J. Simons</a> before using this add-on code.
 
 **Required software:**<br>
 [slepian_alpha](https://github.com/csdms-contrib/slepian_alpha)  
@@ -14,7 +14,7 @@ An add-on package to the [Slepian function Software](https://geoweb.princeton.ed
 [m_map](https://www.eoas.ubc.ca/~rich/map.html)  
 
 ## Citation Information:
-Please cite our work and the foundational work by <a href="https://polarice.geo.arizona.edu/">C. Harig</a> &amp; <a href="http://www.frederik.net">F. J. Simons</a> as appropriate if you find this package useful.  
+Please cite our work and the foundational work by C. Harig and F. J. Simons as appropriate if you find this package useful.  
 
 Harig, Christopher and Frederik J. Simons. 
 Mapping Greeenland's mass loss in space and time.
