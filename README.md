@@ -1,9 +1,9 @@
 # Slepian_ocean_add-on
 
-An add-on package to the [Slepian function Software](https://geoweb.princeton.edu/people/simons/software.html) for calculating the sea level anomaly in a regional ocean. Additional data procedures (e.g., recovering GAD and correcting Inverted barometer) were applied with a selective Gaussion smooth, which proved effective in reducing the north-south stripings in GRACE products.
+An add-on package to the [Slepian function Software](https://geoweb.princeton.edu/people/simons/software.html) for calculating the sea level variations in a regional ocean. Additional data procedures (e.g., recovering GAD and correcting Inverted barometer) were applied with a selective Gaussion smooth, which proved effective in reducing the north-south stripings in GRACE products.
 
 ## Notice before use
-1. This code is based on the Free Software from the Simons Laboratories (https://geoweb.princeton.edu/people/simons/software.html) with some changes for oceanic application (e.g., GAD, GIA, IB correction).
+1. This code is based on the Free Software from the Simons Laboratories (https://geoweb.princeton.edu/people/simons/software.html) with some changes for ocean application (e.g., GAD, GIA, IB correction).
 2. It is strongly recommended to familiarize yourself with the foundational work by <a href="https://polarice.geo.arizona.edu/">C. Harig</a> &amp; <a href="http://www.frederik.net">F. J. Simons</a> before using this add-on code.
 
 **Required software:**<br>
