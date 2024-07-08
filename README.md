@@ -22,9 +22,9 @@ Mapping Greeenland's mass loss in space and time.
 <a href="http://dx.doi.org/10.1073/pnas.1206785109">doi:10.1073/pnas.1206785109</a>
 
 Zhongtian, Ma, Hok Sum Fok, Robert Tenzer, Jianli Chen. 
-A Novel Slepian Approach for Determining Mass-term Sea Level from GRACE over the South China Sea. <i>Int. J. Appl. Earth. Obs. Geoinf.<i>  
+A Novel Slepian Approach for Determining Mass-term Sea Level from GRACE over the South China Sea. <i>Int. J. Appl. Earth. Obs. Geoinf. </i>  
 
 ## Usage of this package
 1. Download the required software (or codes) and this codes as mentioned above.
 2. Run SCS_case.m for a case study in the South China Sea. The procedures of this case generally follow the guideline in [slepian_delta](https://github.com/csdms-contrib/slepian_delta).
-3. (Optinal) Compare this mass-term sea level from Slepian functions with other datasets (e.g., Spherical harmonics, Mascon) in the South China Sea. You can download the mass-term sea level from other datasets in [![DOI](https://zenodo.org/records/12684255)](https://zenodo.org/records/12684255)
+3. (Optinal) Compare this mass-term sea level from Slepian functions with other datasets (e.g., Spherical harmonics, Mascon) in the South China Sea. You can download the mass-term sea level from other datasets in [Zotero](https://zenodo.org/records/12684255).  
