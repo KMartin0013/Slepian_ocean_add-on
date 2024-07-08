@@ -22,7 +22,7 @@ Mapping Greeenland's mass loss in space and time.
 <a href="http://dx.doi.org/10.1073/pnas.1206785109">doi:10.1073/pnas.1206785109</a>
 
 Zhongtian, Ma, Hok Sum Fok, Robert Tenzer, Jianli Chen. 
-A Novel Slepian Approach for Determining Mass-term Sea Level from GRACE over the South China Sea. 
+A Novel Slepian Approach for Determining Mass-term Sea Level from GRACE over the South China Sea. <i>Int. J. Appl. Earth. Obs. Geoinf.<i>  
 
 ## Usage of this package
 1. Download the required software (or codes) and this codes as mentioned above.
