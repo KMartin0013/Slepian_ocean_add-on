@@ -3,7 +3,7 @@
 An add-on package to the [Slepian function Software](https://geoweb.princeton.edu/people/simons/software.html) for calculating the sea level variations in a regional ocean. Additional data procedures (e.g., recovering GAD and correcting Inverted barometer) were applied with a selective Gaussion smooth, which proved effective in reducing the north-south stripings in GRACE products.
 
 ## Notice before use
-1. This code is based on the Free Software from the Simons Laboratories (https://geoweb.princeton.edu/people/simons/software.html) with some changes for ocean application (e.g., GAD, GIA, IB correction).
+1. This code is based on the [foundational Software from the Simons Laboratories](https://geoweb.princeton.edu/people/simons/software.html) with some changes for ocean application (e.g., GAD, GIA, IB correction).
 2. It is strongly recommended to familiarize yourself with the foundational work by <a href="https://polarice.geo.arizona.edu/">C. Harig</a> &amp; <a href="http://www.frederik.net">F. J. Simons</a> before using this add-on code.
 
 **Required software:**<br>
@@ -28,4 +28,4 @@ A Novel Slepian Approach for Determining Mass-term Sea Level from GRACE over the
 1. Download the required software (or codes) and this codes as mentioned above.
 2. Download the Spherical Harmonic coefficients and the associated correction files (e.g., degree 1, degree 20 correction) from official websites.
 3. Run SCS_case.m for a case study in the South China Sea. The procedures of this case generally follow the guideline in [slepian_delta](https://github.com/csdms-contrib/slepian_delta).
-4. (Optinal) Compare this mass-term sea level from Slepian functions with other datasets (e.g., Spherical harmonics, Mascon) in the South China Sea. You can download the mass-term sea level from other datasets in [Zotero](https://zenodo.org/records/12684255).  
+4. (Optional) Compare this mass-term sea level from Slepian functions with other datasets (e.g., Spherical harmonics, Mascon) in the South China Sea. You can download the mass-term sea level from other datasets in [Zotero](https://zenodo.org/records/12684255).  
