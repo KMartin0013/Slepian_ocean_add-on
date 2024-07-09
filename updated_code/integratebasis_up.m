@@ -160,6 +160,10 @@ if length(J)==1
     end
 
 elseif length(J)==2
+    if Radius<=0
+	error('The Radius of Gaussion Smooth should not be zero or negative values.')
+    end
+
     % Run parallel is we are able (small orders of functions with no smooth)
     parfor h=1:J(1)
         [Int,A]=plm2avg(CC{h},XY);
@@ -173,7 +177,7 @@ elseif length(J)==2
     end
 else
 
-    eror('Wong input J.')
+    error('Wong input J.')
 end
 
 % Collect output
