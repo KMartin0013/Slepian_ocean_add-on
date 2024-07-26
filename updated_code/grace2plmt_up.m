@@ -412,14 +412,12 @@ for index = 1:nmonths
             %m Add the degree (1~Lmax) of GAD for ocean usage
             where2=thedates_D(index_D)==thedates(index);
 
-            if ~where2
-                leakage_sp=[leakage_sp; index_D thedates_D(index_D)];
-            end
         end
 
         if ~any(where2)
-            % If there is no Deg1 value within our specific interval,
+            % If there is no GAD value within our specific interval,
             % don't change anything, because we know a few months are missing
+            % Please further check your GAD files.
             error('No GAD (or GAB) product to corresponding GSM.')
         else
             % Open and scan the file (data from all three centers is 10 columns)
