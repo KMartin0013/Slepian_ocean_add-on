@@ -1,6 +1,6 @@
 # Slepian_ocean_add-on
 
-An add-on package to the [Slepian function Software](https://geoweb.princeton.edu/people/simons/software.html) for calculating the sea level variations in a regional ocean. Additional data procedures (e.g., recovering GAD and correcting Inverted barometer) were applied with a selective Gaussion smooth, which proved effective in reducing the north-south stripings in GRACE products.
+An add-on package to the [Slepian function Software](https://geoweb.princeton.edu/people/simons/software.html) for calculating the sea level variations in a regional ocean. Additional data procedures (e.g., recovering GAD and correcting Inverted barometer) are applied with a selective Gaussion smooth, which proves effective in reducing the north-south stripings in GRACE products.
 
 ## Notice before use
 1. This code is based on the [foundational Software from the Simons Laboratories](https://geoweb.princeton.edu/people/simons/software.html) with some changes for ocean application (e.g., GAD, GIA, IB correction).
@@ -19,10 +19,11 @@ Please cite our work and the foundational work by C. Harig and F. J. Simons as a
 Harig, Christopher and Frederik J. Simons. 
 Mapping Greeenland's mass loss in space and time.
 <i>Proc. Natl. Acad. Sc.</i>, 109(49), 19934-19937, 2012.
-<a href="http://dx.doi.org/10.1073/pnas.1206785109">doi:10.1073/pnas.1206785109</a>
+doi:https://doi.org/10.1073/pnas.1206785109
 
 Zhongtian, Ma, Hok Sum Fok, Robert Tenzer, Jianli Chen. 
-A Novel Slepian Approach for Determining Mass-term Sea Level from GRACE over the South China Sea. <i>Int. J. Appl. Earth. Obs. Geoinf. </i>  
+A Novel Slepian Approach for Determining Mass-term Sea Level from GRACE over the South China Sea. <i>Int. J. Appl. Earth. Obs. Geoinf.</i>, 132, 104065, 2024.
+doi:https://doi.org/10.1016/j.jag.2024.104065
 
 ## Usage of this package
 1. Download the required software (or codes) and this codes as mentioned above.
