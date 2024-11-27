@@ -17,7 +17,7 @@ An add-on package to the [Slepian function Software](https://geoweb.princeton.ed
 Please cite our work and the foundational work by C. Harig and F. J. Simons as appropriate if you find this package useful.  
 
 Harig, Christopher and Frederik J. Simons. 
-Mapping Greeenland's mass loss in space and time.
+Mapping Greenland's mass loss in space and time.
 <i>Proc. Natl. Acad. Sc.</i>, 109(49), 19934-19937, 2012.
 doi:https://doi.org/10.1073/pnas.1206785109
 
