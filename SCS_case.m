@@ -18,7 +18,7 @@
 % Ref2: Zhongtian, Ma et al., A Novel Slepian Approach for Determining Mass-term Sea Level from GRACE over the
 %           South China Sea
 
-% Last modified by zhongtian.ma@connect.polyu.hk, 07/07/2024
+% Last modified by zhongtian.ma@connect.polyu.hk, 2/12/2024
 
 clc;clear;close all
 
@@ -308,7 +308,11 @@ OBP_ESTreconsttotal=OBP_ESTsigtotal+OBP_ESTrestotal;
 ESTresid_IB=ESTresid;
 ESTresid_IB(:,N+1)=IBresid;
 [Cab_IB] = slepresid2cov(ESTresid_IB);
-functionintegrals_IB=[functionintegrals -1]; % -1 represents subtracting IB
+
+% functionintegrals_IB=[functionintegrals -1]; % -1 represents subtracting IB
+% correction on 2/12/2024 (the unit of IB is wrong in previous version)
+functionintegrals_IB=[functionintegrals -1/10^3*BasinArea*10^3/10^3/10^9]; % represents subtracting IB (change unit from mm to Gt)
+
 alphavarall_IB=functionintegrals_IB*Cab_IB(1:N+1,1:N+1)*functionintegrals_IB';
 alphavarall_EST=functionintegrals*Cab(1:N,1:N)*functionintegrals';
 
